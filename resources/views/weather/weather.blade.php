@@ -10,8 +10,7 @@
         <div class="container py-4">
             <div class="col-lg-6">
                 <h2> <span class="sub-title">The Weather Forecasting Web
-                        App is a user-friendly application that provides
-                        real-time weather information and forecasts.</span>
+                        App UI.</span>
                 </h2>
             </div>
         </div>

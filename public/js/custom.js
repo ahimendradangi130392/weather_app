@@ -23,6 +23,7 @@ geocoder.on('result', function (e) {
   $('#current_lat').val(coordinates[1]);
   $('#current_lng').val(coordinates[0]);
   $('#current_city').val(place.text);
+  $('.search').click();
 });
 
 
