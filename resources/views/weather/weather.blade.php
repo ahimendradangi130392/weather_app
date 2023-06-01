@@ -1,4 +1,4 @@
-@include('partials\header')
+@include('partials/header')
 
 <body>
     <div class="custom-loader d-none"></div>
@@ -256,4 +256,4 @@
         </div>
     </section>
 </body>
-@include('partials\footer')
+@include('partials/footer')
