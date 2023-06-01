@@ -138,6 +138,11 @@
         $('.search').click(function() {
             $('.custom-loader').removeClass('d-none');
             $('.custom-loader').addClass('d-show');
+            $('.mapboxgl-ctrl-geocoder--input').val('');
+            $('.mapboxgl-ctrl-geocoder--input').blur();
+            $("html, body").animate({
+                scrollTop: $(document).height()
+            }, 2000);
             getWeather(0);
             setTimeout(function() {
                 storeCache();
